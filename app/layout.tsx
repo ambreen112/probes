@@ -28,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <h1 className="text-center font-serif text-slate-800 mt-4 font-semibold text-4xl underline hover: underline-offset-3">Muslim Countries</h1>
         {children}
       </body>
     </html>
